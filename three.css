@@ -1,0 +1,153 @@
+* {
+    transition: .3s linear all;
+}
+
+html, body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color:#ffffff82;
+
+    background: #212B2D;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 300px;
+    width: 100%;
+    background: url('globe.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 500px 0px;
+    /* background-size: 100% 100%; */
+    background-color: #3a615c;
+    border: 1px solid #fff;    
+}
+
+#banner h1 {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    left: 550px;
+} 
+
+#banner p {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    left: 550px;
+}
+
+nav {
+    width: 985px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    width: 90%;
+    /* border: 1px solid #fff; */
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    /* padding: 15px; */
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    /* border: 1px solid #fff; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: verdana;
+}
+
+#left-side {
+    /* border: 1px solid #3af; */
+    padding: 15px;
+    width: 200px;
+    float: left;
+    text-align: left;
+      
+}
+
+
+#left-side ul {
+
+    
+}
+
+
+#right-side {
+    /* background-color: crimson; */
+    width: 720px;
+    text-align: left;
+    float: left;
+    padding: 15px;
+}
+
+#sub-left {
+    /* background-color: crimson; */
+    width: 250px;
+    width: 400px;
+    background-color: #3a615c;
+}
+
+button {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    width: 50%;
+}
+
+.rw {
+    transform: rotate(90deg);
+    position: absolute;
+    width:250px;
+    top: 800px;
+    bottom: 0;
+    right: 700px;
+    height: 1px;
+    /* background-color: #f00; */
+}
+
+#sub-right {
+    width: 200px;
+    float: right;
+    background-color: #3a615c;
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
